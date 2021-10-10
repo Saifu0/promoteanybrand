@@ -16,6 +16,7 @@ function App() {
           <Route path='/brand' exact component={Brand} />
           <Route path='/influencer' exact component={Influencer} />
         </Switch>
+        <div style={{color:'white'}}>Blank Space</div>
         <Footer />
       </Router>
     </div>
