@@ -23,7 +23,7 @@ function Footer() {
                   <WhatsApp />
                 </Grid>
                 <Grid item xs={6}>
-                  6392028294
+                  +91 84335 81610
                 </Grid>
               </Grid>
             </Grid>
