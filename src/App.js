@@ -4,6 +4,7 @@ import Footer from "./Component/Footer";
 import Header from "./Component/Header";
 import Home from "./Component/Home";
 import Brand from "./Component/Brand";
+import Influencer from "./Component/Influencer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/brand' exact component={Brand} />
+          <Route path='/influencer' exact component={Influencer} />
         </Switch>
         <Footer />
       </Router>
