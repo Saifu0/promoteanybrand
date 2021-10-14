@@ -2,6 +2,7 @@ import { Grid, Typography, Button } from "@mui/material";
 import Landing from "../assests/landing.jpg";
 import React from "react";
 import Services from "./Services";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -22,10 +23,20 @@ function Home() {
           <Grid container alignItems='center' style={{ marginTop: 20 }}>
             <Grid item xs={3}></Grid>
             <Grid item xs={2}>
-              <Button variant='contained'>I'm Brand</Button>
+              <Link
+                to='/brand'
+                style={{ textDecorationLine: "none", color: "white" }}
+              >
+                <Button variant='contained'>I'm Brand</Button>
+              </Link>
             </Grid>
             <Grid item xs={3}>
-              <Button variant='contained'>I'm Influencer</Button>
+              <Link
+                to='/influencer'
+                style={{ textDecorationLine: "none", color: "white" }}
+              >
+                <Button variant='contained'>I'm Influencer</Button>
+              </Link>
             </Grid>
           </Grid>
         </Grid>
