@@ -52,13 +52,13 @@ function Services() {
       </Typography>
       <Grid
         container
-        spacing={2}
+        // spacing={2}
         alignItems='center'
         style={{ marginLeft: "7%", marginTop: 10 }}
       >
         {services.map((service) => (
-          <Grid item xs={2.5}>
-            <Card sx={{ minWidth: 275 }}>
+          <Grid item xs={5} md={4}>
+            <Card>
               <CardContent>
                 <div>{service.icon}</div>
                 <Typography variant='h5' component='div'>
