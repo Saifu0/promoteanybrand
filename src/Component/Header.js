@@ -8,9 +8,14 @@ function Header() {
     <div>
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container>
-    <img src={img} style={{ width: "3em", height: "3em",marginRight: 5, borderRadius: "1em" }} alt="">
-          </img>
-          <Navbar.Brand href='#home'>Promote Any Brand</Navbar.Brand>
+    <Link to='/home'>
+     <Link to='/'>
+          <img src={img} style={{ width: "3em", height: "3em",marginRight: 5, borderRadius: "1em" }}>
+            </img>
+          </Link>
+          <Link to='/' style={{ textDecorationLine: "none" }}>
+            <Navbar.Brand>Promote Any Brand</Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto'>
