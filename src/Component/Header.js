@@ -8,7 +8,7 @@ function Header() {
     <div>
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container>
-    <img src={img} style={{ width: "3em", height: "3em",marginRight: 5, borderRadius: "1em" }}>
+    <img src={img} style={{ width: "3em", height: "3em",marginRight: 5, borderRadius: "1em" }} alt="">
           </img>
           <Navbar.Brand href='#home'>Promote Any Brand</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
