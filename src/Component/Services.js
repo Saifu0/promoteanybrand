@@ -43,7 +43,7 @@ const services = [
 
 function Services() {
   return (
-    <div>
+    <div style={{marginTop: "1em"}}>
       <Typography variant='h3' color='primary'>
         Services We Offer
       </Typography>
@@ -52,12 +52,13 @@ function Services() {
       </Typography>
       <Grid
         container
-        // spacing={2}
+        spacing={2}
         alignItems='center'
-        style={{ marginLeft: "7%", marginTop: 10 }}
+        justifyContent="center"
+        style={{  marginTop: 10 }}
       >
         {services.map((service) => (
-          <Grid item xs={5} md={4}>
+          <Grid item xs={5} md={3}>
             <Card>
               <CardContent>
                 <div>{service.icon}</div>
