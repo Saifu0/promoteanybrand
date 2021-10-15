@@ -30,7 +30,7 @@ function DetailForm({ type }) {
   return (
     <div>
       <Grid container alignItems='center' justifyContent="center" spacing={2}>
-        <Grid item xs={6} >
+        <Grid item xs={11} sm={8} md={6}>
           <Form
             name='basic'
             ref={formRef}
@@ -94,7 +94,7 @@ function DetailForm({ type }) {
             </Form.Item>
           </Form>
         </Grid>
-        <Grid item xs={6} justifyContent="center">
+        <Grid item xs={11} sm={4} md={6} justifyContent="center">
           <img src={AsBrand} alt='as_brand' style={{ width: "100%" }} />
         </Grid>
       </Grid>
