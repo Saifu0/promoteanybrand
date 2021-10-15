@@ -10,7 +10,7 @@ function Header() {
         <Container>
     <Link to='/home'>
      <Link to='/'>
-          <img src={img} style={{ width: "3em", height: "3em",marginRight: 5, borderRadius: "1em" }}>
+          <img src={img} style={{ width: "3em", height: "3em",marginRight: 5, borderRadius: "1em" alt=""}}>
             </img>
           </Link>
           <Link to='/' style={{ textDecorationLine: "none" }}>
