@@ -5,24 +5,25 @@ import WhatsApp from "@mui/icons-material/WhatsApp";
 
 function Footer() {
   return (
-    <AppBar  position="fixed" color="primary" sx={{ top: 'auto', bottom: 0 }}>
+    <AppBar position="fixed" color="primary" sx={{ top: 'auto', bottom: 0 }}>
       <Container maxWidth='md'>
         <Toolbar>
           <Grid container spacing={2} alignItems='center'>
-            <Grid item xs={8}>
+
+            <Grid item xs={6} sm={6}>
               <Typography variant='body1' color='inherit'>
                 Copyrights © 2020 | All Rights Reserved
               </Typography>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={6} sm={6}>
               <Grid container alignItem='center'>
-                <Grid item xs={2}>
+                <Grid item xs={2} sm={2}>
                   <CallIcon />
                 </Grid>
-                <Grid item xs={1}>
+                <Grid item xs={2} sm={2}>
                   <WhatsApp />
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={10} sm={6}>
                   +91 84335 81610
                 </Grid>
               </Grid>

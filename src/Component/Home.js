@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       <Grid container spacing={1} alignItems='center'>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <Typography variant='h6'>
             Looking for All in One Marketing Solution of your Business? You're
             at right place!
@@ -20,9 +20,10 @@ function Home() {
             One Solution for Influencer to get consistent revenue. One solution
             for Brand to engage with your target audience.
           </Typography>
-          <Grid container alignItems='center' style={{ marginTop: 20 }}>
-            <Grid item xs={3}></Grid>
-            <Grid item xs={2}>
+          <Grid container direction="row"
+            alignItems="center" justifyContent="center" spacing={0} style={{ marginTop: 20}}>
+            {/* <Grid item xs={3}></Grid> */}
+            <Grid item xs={5} sm={4} md={6}>
               <Link
                 to='/brand'
                 style={{ textDecorationLine: "none", color: "white" }}
@@ -30,7 +31,7 @@ function Home() {
                 <Button variant='contained'>I'm Brand</Button>
               </Link>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={5} sm={8} md={6}>
               <Link
                 to='/influencer'
                 style={{ textDecorationLine: "none", color: "white" }}
@@ -40,7 +41,7 @@ function Home() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img
             src={Landing}
             alt='landing'
