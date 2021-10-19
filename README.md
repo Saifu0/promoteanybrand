@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Landing Page
 <br/>
-![](assests/landing.jpg)
+![](srs/assests/landing.png)
 
 ### Landing Page
 Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
