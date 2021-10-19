@@ -5,13 +5,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Live WebApp : https://promoteanybrand.com
 
 ### Landing Page
-<br/>
-![](srs/assests/landing.png)
 
-### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
+![landing](src/assests/landing1.png)
 
-![](https://ibb.co/Jkzft4s)
+### Brand Page
+
+![landing](src/assests/brand.png)
+
+### Influencer Page
+
+![landing](src/assests/influencer.png)
+
 ## Available Scripts
 
 
