@@ -5,9 +5,9 @@ import DetailForm from './DetailForm';
 function Influencer() {
     
     return (
-        <div style={{ marginTop: 20 }}>
+        <div style={{ marginTop: 20, height:"81.6vh" }}>
             <Typography variant="h3">Join as Influencer</Typography>
-            <DetailForm type="Influencer" />;
+            <DetailForm type="Influencer" />
         </div>
     )
 }
