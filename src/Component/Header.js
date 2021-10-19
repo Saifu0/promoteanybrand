@@ -2,30 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Button } from "@mui/material";
-import img from "../assests/favicon.jpg";
-
+import img from "../assests/favicon.jpg"
 function Header() {
   return (
     <div>
-      <Navbar bg='dark' variant='dark' expand='lg'>
+      <Navbar bg='dark' variant='dark' expand='lg' >
         <Container>
-          <Link to='/'>
-          <img src={img} style={{ width: "3em", height: "3em",marginRight: 5, borderRadius: "1em" }} alt="">
+          <Link to='/home'>
+
+            <img src={img} style={{ width: "3em", height: "3em", marginRight: 5, borderRadius: "1em" }} alt="">
             </img>
           </Link>
-          <Link to='/' style={{ textDecorationLine: "none" }}>
-            <Navbar.Brand>Promote Any Brand</Navbar.Brand>
-          </Link>
+          <Navbar.Brand href='#home'>Promote Any Brand</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto'>
               <Nav.Link href='/'>
-                <Link to='/' style={{ textDecorationLine: "none" }}>
+                <Link to='/' style={{ textDecorationLine: "none", color: "#1C9CEA" }}>
                   Home
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to='/services' style={{ textDecorationLine: "none" }}>
+                <Link to='/services' style={{ textDecorationLine: "none", color: "#1C9CEA" }}>
                   Services
                 </Link>
               </Nav.Link>
@@ -36,7 +34,7 @@ function Header() {
                   to='/brand'
                   style={{ textDecorationLine: "none", color: "white" }}
                 >
-                  <Button variant='contained'>I'm Brand</Button>
+                  <Button variant='contained' style={{ backgroundColor: "#1C9CEA"}}>I'm Brand</Button>
                 </Link>
               </Nav.Link>
               <Nav.Link eventKey={2} href='#memes'>
@@ -44,7 +42,7 @@ function Header() {
                   to='/influencer'
                   style={{ textDecorationLine: "none", color: "white" }}
                 >
-                  <Button variant='contained'>I'm Influencer</Button>
+                  <Button variant='contained' style={{ backgroundColor: "#1C9CEA" }}>I'm Influencer</Button>
                 </Link>
               </Nav.Link>
             </Nav>

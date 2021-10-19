@@ -5,7 +5,7 @@ import WhatsApp from "@mui/icons-material/WhatsApp";
 
 function Footer() {
   return (
-    <AppBar position="relative" color="primary" sx={{ top: 'auto', bottom: 0 }}>
+    <AppBar position="relative" color="primary" sx={{ top: 'auto', bottom: 0, backgroundColor: "#7F8389" }}>
       <Container maxWidth='md'>
         <Toolbar>
           <Grid container spacing={2} alignItems='center'>
