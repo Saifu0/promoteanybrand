@@ -28,7 +28,7 @@ function Home() {
                 to='/brand'
                 style={{ textDecorationLine: "none", color: "white" }}
               >
-                <Button variant='contained'>I'm Brand</Button>
+                <Button variant='contained' style={{ backgroundColor: "#1C9CEA" }}>I'm Brand</Button>
               </Link>
             </Grid>
             <Grid item xs={5} sm={8} md={6}>
@@ -36,7 +36,7 @@ function Home() {
                 to='/influencer'
                 style={{ textDecorationLine: "none", color: "white" }}
               >
-                <Button variant='contained'>I'm Influencer</Button>
+                <Button variant='contained' style={{ backgroundColor: "#1C9CEA" }}>I'm Influencer</Button>
               </Link>
             </Grid>
           </Grid>
