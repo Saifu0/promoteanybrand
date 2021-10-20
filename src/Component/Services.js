@@ -44,30 +44,32 @@ const services = [
 function Services() {
   return (
     <div style={{ marginTop: "1em" }}>
-      <Typography variant='h3' color='primary' style={{ color: "#804004" }}>
+      <Typography variant="h3" color="primary" style={{ color: "#804004" }}>
         Services We Offer
       </Typography>
-      <Typography variant='h6' style={{ color: "#804004" }}>
+      <Typography variant="h6" style={{ color: "#804004" }}>
         One stop solution for all your need with profitable results
       </Typography>
       <Grid
         container
         spacing={2}
-        alignItems='center'
+        alignItems="center"
         justifyContent="center"
         style={{ marginTop: 10 }}
       >
         {services.map((service) => (
-          <Grid item xs={5} md={3}>
+          <Grid item key={service.name} xs={5} md={3}>
             <Card style={{ backgroundColor: "#CFA76E" }}>
               <CardContent>
                 <div>{service.icon}</div>
-                <Typography variant='h5' component='div'>
+                <Typography variant="h5" component="div">
                   {service.name}
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size='small' style={{ color: "#2F83D6"}}>Learn More</Button>
+                <Button size="small" style={{ color: "#2F83D6" }}>
+                  Learn More
+                </Button>
               </CardActions>
             </Card>
           </Grid>
