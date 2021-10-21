@@ -59,7 +59,7 @@ function Services() {
       >
         {services.map((service) => (
           <Grid item key={service.name} xs={5} md={3}>
-            <Card style={{ backgroundColor: "#CFA76E" }}>
+            <Card style={{ backgroundColor: "#CFA76E"}}>
               <CardContent>
                 <div>{service.icon}</div>
                 <Typography variant="h5" component="div">

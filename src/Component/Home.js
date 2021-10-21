@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <Grid container spacing={1} alignItems='center'>
+      <Grid style={{ padding: 50, paddingLeft: 100}} container spacing={1} alignItems='center'>
         <Grid item xs={12} sm={6}>
           <Typography variant='h6'>
             Looking for All in One Marketing Solution of your Business? You're
@@ -21,7 +21,7 @@ function Home() {
             for Brand to engage with your target audience.
           </Typography>
           <Grid container direction="row"
-            alignItems="center" justifyContent="center" spacing={0} style={{ marginTop: 20}}>
+            alignItems="center" justifyContent="center" spacing={0} style={{ marginTop: 20, width: 300, marginLeft: 125}}>
             {/* <Grid item xs={3}></Grid> */}
             <Grid item xs={5} sm={4} md={6}>
               <Link
