@@ -4,7 +4,7 @@ import DetailForm from './DetailForm';
 
 function Brand() {
     return (
-        <div style={{ marginTop: 20, height:"81.6vh" }}>
+        <div style={{ marginTop: 20, height:"fit-content" }}>
             <Typography variant="h3">Join as Brand</Typography>
             <DetailForm type="Brand" />
         </div>
