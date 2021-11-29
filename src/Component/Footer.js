@@ -5,14 +5,17 @@ import WhatsApp from "@mui/icons-material/WhatsApp";
 
 function Footer() {
   return (
-    <AppBar position="relative" color="primary" sx={{ top: 'auto', bottom: 0, backgroundColor: "#7F8389" }}>
+    <AppBar
+      position='relative'
+      color='primary'
+      sx={{ top: "auto", bottom: 0, backgroundColor: "#7F8389" }}
+    >
       <Container maxWidth='md'>
         <Toolbar>
           <Grid container spacing={2} alignItems='center'>
-
             <Grid item xs={6} sm={6}>
               <Typography variant='body1' color='inherit'>
-                Copyrights © 2020 | All Rights Reserved
+                Copyrights © 2021 | All Rights Reserved
               </Typography>
             </Grid>
             <Grid item xs={6} sm={6}>
